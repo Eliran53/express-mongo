@@ -7,5 +7,9 @@ app.get('/', (req, res) => {
   
   res.send("hello world");
 });
+app.post('/AddNewBusiness',(req,res)=>{
+    console.log("here new business");
+    res.send("New Business Added")
+})
 
 app.listen(port, () => console.log("U R connecting to Port:5000"));

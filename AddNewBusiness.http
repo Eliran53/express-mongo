@@ -1,0 +1,6 @@
+POST http://localhost:5000/addnewbusiness
+Content-Type: : application/json
+
+{
+    "businessName":"Rebar"
+}

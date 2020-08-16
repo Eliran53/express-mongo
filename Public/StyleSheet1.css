@@ -1,0 +1,199 @@
+body {
+    direction: rtl;
+    background-color: black;
+
+}
+
+.page {
+    height:90%;
+}
+footer{
+    height:10%;
+}
+
+.HeadLine {
+    font-family: 'Monotype Corsiva';
+    color: white;
+    text-shadow: 10px 5px 2px black;
+    font-size: xx-large;
+    background-image: url('../pics/a3d552_4d6c1fc3fe374da7ac3582e5b062897f_mv2.jpg');
+    background-size: contain;
+    text-align: center;
+    height: 150px;
+}
+
+    .HeadLine h2 {
+        text-decoration: none;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .HeadLine h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+.menu {
+    width: 100%;
+    background-color: gold;
+    height: 50px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    /*align-content:center;*/
+    text-align: center;
+    border: 200px;
+}
+
+    .menu ul {
+        margin-top: 0;
+    }
+
+    .menu li {
+        width: 15%;
+        color: white;
+        padding: 15px 0 15px 0;
+        font-size: large;
+        font-family: David;
+        display: inline-block;
+        border: 0.8px solid white;
+    }
+
+
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 70px 14px 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+        background-color: #777;
+    }
+
+.link {
+    text-align: center;
+}
+
+#content {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.contentperson {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.content {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    width: 68%;
+    display: inline-block;
+    float: right;
+    height: 100%;
+}
+    .content p {
+        border-radius: 3px 4px;
+        border-color: gold;
+    }
+
+.contentperson img {
+    float: left;
+    width: 30%;
+    display: inline-block;
+    height: 100%;
+    align-content: center;
+    box-shadow:5px 5px;
+}
+
+/*.pics {
+    display: block;
+}
+
+.images {
+    margin: 5px;
+    border: 1px solid #ffd800;
+    display: inline;
+    float: right;
+    width: 200px;
+}
+
+    .images img {
+        width: 100%;
+        height: 200px;
+        align-content: center;
+    }*/
+
+
+h2 {
+    font-family: 'Guttman Myamfix';
+    text-decoration: underline;
+}
+
+.mpic {
+    width: 200px;
+    height: 100px;
+}
+
+
+#Eldad {
+    display: inline-block;
+    width: 50%;
+}
+
+#Moshe {
+    display: inline-block;
+    width: 48%;
+}
+#Eldad h2 {
+    text-align: center;
+    color: gold;
+}
+#Moshe h2 {
+    text-align: center;
+    color:gold;
+}
+
+#facebook {
+    font-family: 'Guttman Yad';
+    font-size: larger;
+    font-weight: 400;
+    color: blue;
+    padding: 10PX 5PX 10PX 5PX;
+    text-align:center;
+}
+
+#instegram {
+    font-family: 'Guttman Yad';
+    font-size: larger;
+    font-weight: 400;
+    color: pink;
+    padding: 10PX 5PX 10PX 5PX;
+    text-align: center;
+    /*background-color: white;*/
+    /*display:block;*/
+}
+footer {
+    height:50px;
+    background-color: white;
+    margin-bottom: 0px;
+    text-align:center;
+}
+.frame {
+    border: 5px solid black;
+    display: inline-block;
+    background-color:gold;
+}
+
+input {
+    display: block;
+    text-align: center;
+}

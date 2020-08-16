@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body class="frame">
+    <div>
+        <h2 class="headLine">טופס צור קשר</h2><br />
+        <div id="formcover">
+            <form action="contactest" target="_blank" method="POST">
+                <label for="fullname">שם מלא:</label>
+                <input type="text" name="fullname" placeholder="john doe" pattern="^(\p\p+)\s(\p+)$" required>
+                <label for="age">גיל:</label>
+                <input type="number" name="age" max="67" min="18" required>
+                <label for="phone">מס' טלפון:</label>
+                <input type="tel" name="phone" placeholder="050-0505055" pattern="05+[0-9]{1}-[0-9]{7}" required><br />
+                <label for="reason">עבור מי הפנייה:</label>
+                <select name="Who" required>
+                    <option value="Eldad">Eldad</option>
+                    <option value="Moshe">Moshe</option>
+                    <option value="" selected></option>
+                </select><br /><br />
+                <input type="submit" value="שלח טופס" style="float:right">
+                <input type="reset">
+            </form>
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+</body>
+</html>
